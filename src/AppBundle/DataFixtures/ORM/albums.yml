@@ -1,0 +1,4 @@
+AppBundle\Entity\Album:
+  album{1..5}:
+    name: <words(1, 3)>
+    created_at: <dateTimeBetween('-200 days', 'now')>
