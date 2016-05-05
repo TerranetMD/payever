@@ -105,6 +105,6 @@ class Album
      */
     public function getCount()
     {
-        return $this->pictures->count();
+        return is_object($this->pictures) ? $this->pictures->count() : 0;
     }
 }
