@@ -98,4 +98,13 @@ class Album
     {
         return is_object($this->pictures) ? $this->pictures->slice(0, 4) : [];
     }
+
+    /**
+     * @Groups({"short"})
+     * @return mixed
+     */
+    public function getCount()
+    {
+        return $this->pictures->count();
+    }
 }
