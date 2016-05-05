@@ -7,28 +7,28 @@ AppBundle\Entity\Picture:
     note: <sentence()>
 
   # Album 2 - 10 images
-  picture{6..16}:
+  picture{6..15}:
     album: '@album2'
     path: <imageUrl(640, 480)>
     thumbnail: <imageUrl(100, 100)>
     note: <sentence()>
 
   # Album 3 - 20 images
-  picture{17..37}:
+  picture{16..35}:
     album: '@album3'
     path: <imageUrl(640, 480)>
     thumbnail: <imageUrl(100, 100)>
     note: <sentence()>
 
   # Album 4 - 15 images
-  picture{38..53}:
+  picture{36..50}:
     album: '@album4'
     path: <imageUrl(640, 480)>
     thumbnail: <imageUrl(100, 100)>
     note: <sentence()>
 
   # Album 5 - 18 images
-  picture{54..72}:
+  picture{51..68}:
     album: '@album5'
     path: <imageUrl(640, 480)>
     thumbnail: <imageUrl(100, 100)>
