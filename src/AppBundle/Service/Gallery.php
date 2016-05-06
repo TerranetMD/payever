@@ -66,7 +66,7 @@ class Gallery
      * @param int $perPage
      * @return array
      */
-    public function pictures($albumId, $page = 1, $perPage = 10)
+    public function pictures($albumId, $page = 1, $perPage = 12)
     {
         /** @var $repo PictureRepository */
         $repo = $this->em->getRepository("AppBundle:Picture");
