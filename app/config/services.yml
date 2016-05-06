@@ -14,3 +14,8 @@ services:
     paginator_serializer:
         class: AppBundle\Serializer\PaginatorSerializer
         arguments: []
+
+    app.cors_listener:
+        class: AppBundle\Service\CorsResponse
+        tags:
+           - { name: kernel.event_listener, event: kernel.response, method: onKernelResponse }
