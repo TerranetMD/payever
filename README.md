@@ -21,3 +21,5 @@
 
 ### Run web server
 `php app/console server:run`
+
+### Enjoy!
